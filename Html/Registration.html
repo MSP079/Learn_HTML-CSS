@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration</title>
+</head>
+
+<body>
+    <h1>Race Registration</h1>
+    <form>
+        <div>
+            <label for="firstname">First Name</label>
+            <input type="text" placeholder="firstname" id="firstname" name="firstname" required>
+            <label for="lastname">Last Name</label>
+            <input type="text" placeholder="lastname" id="lastname" name="lastname" required>
+        </div>
+        <div>
+            <h4>Select a race:</h4>
+            <input type="radio" value="Fun run 5K" id="fiveKRun">
+            <label for="fiveKRun">Fun run 5K</label><br>
+            <input type="radio" value="halfMarathon" id="halfMarathon">
+            <label for="halfMarathon">Half Marathon</label><br>
+            <input type="radio" value="fullMarathon" id="fullMarathon">
+            <label for="fullMarathon">Full Marathon</label><br>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="xyz@gmail.com" id="email" name="email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <label for="division">Select age group</label>
+            <select name="division" id="division">
+                <option value="kids">under 18</option>
+                <option value="teens">18-30</option>
+                <option value="adult">30-50</option>
+                <option value="senior">50+</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+</body>
+
+</html>
+
+http://192.168.1.5:5500/Registration.html?firstname=sai+praneeth&lastname=myakala&email=NarutoUzumaki%40gmail.com&password=ksdjfpadhspbnfdas&division=teens
